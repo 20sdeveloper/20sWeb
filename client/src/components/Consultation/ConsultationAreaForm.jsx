@@ -27,7 +27,7 @@ export const ConsultationAreaForm = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/consultation', {
+      const response = await fetch('https://two0s-server.onrender.com/api/consultation', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
